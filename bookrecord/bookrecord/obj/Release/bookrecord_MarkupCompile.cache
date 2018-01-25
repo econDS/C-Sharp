@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\DELL\Desktop\Self Learning\CSharp\git\C-Sharp\bookrecord\bookrecord\obj\Debug\
+C:\Users\DELL\Desktop\Self Learning\CSharp\git\C-Sharp\bookrecord\bookrecord\obj\Release\
 bookrecord
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\DELL\Desktop\Self Learning\CSharp\git\C-Sharp\bookrecord\bookrecord\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\DELL\Desktop\Self Learning\CSharp\git\C-Sharp\bookrecord\bookrecord\App
 15-15446915
 MainWindow.xaml;
 
-False
+True
 
