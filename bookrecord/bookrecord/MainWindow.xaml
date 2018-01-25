@@ -1,0 +1,26 @@
+﻿<Window x:Name="MainWindow1" x:Class="bookrecord.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bookrecord"
+        mc:Ignorable="d"
+        Title="MyLibrary" Height="400
+        " Width="525" ResizeMode="NoResize">
+    <Grid Background="#FF72D1CC">
+        <TextBox x:Name="textBoxBookID" HorizontalAlignment="Left" Height="20" Margin="85,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" TextAlignment="Center"/>
+        <TextBox x:Name="textBoxBookName" HorizontalAlignment="Left" Height="20" Margin="85,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="textBoxBookAuther" HorizontalAlignment="Left" Height="20" Margin="85,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="textBoxStatus" HorizontalAlignment="Left" Height="20" Margin="85,85,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="30" TextAlignment="Center"/>
+        <Label x:Name="label1" Content="รหัสหนังสือ" HorizontalAlignment="Left" Height="25" Margin="10,6,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="label2" Content="ชื่อหนังสือ" HorizontalAlignment="Left" Height="25" Margin="10,30,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="label3" Content="ชื่อผู้แต่ง" HorizontalAlignment="Left" Height="34" Margin="10,56,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="label4" Content="สถานะ" HorizontalAlignment="Left" Height="24" Margin="10,81,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="buttonInsert" Content="เพิ่ม" HorizontalAlignment="Left" Height="31" Margin="10,120,0,0" VerticalAlignment="Top" Width="60" Click="buttonInsert_Click"/>
+        <Button x:Name="buttonDelete" Content="ลบ" HorizontalAlignment="Left" Height="31" Margin="75,120,0,0" VerticalAlignment="Top" Width="60" Click="buttonDelete_Click"/>
+        <Button x:Name="buttonDelete_Copy" Content="แก้ไข" HorizontalAlignment="Left" Height="31" Margin="140,120,0,0" VerticalAlignment="Top" Width="60" Click="buttonEdit"/>
+        <Button x:Name="buttonListAll" Content="แสดงรายการ" Height="31" Margin="0,120,8,0" VerticalAlignment="Top" Click="buttonListAll_Click" HorizontalAlignment="Right" Width="75"/>
+        <DataGrid x:Name="dataGrid1" Margin="10,156,8,10"/>
+
+    </Grid>
+</Window>
